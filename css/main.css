@@ -197,10 +197,16 @@ p {
 
 .sign-up {
   font-family: "Livvic", sans-serif;
+  text-decoration: none;
 }
 
 .pricing-div {
   padding: 0;
+}
+
+.tick {
+  color: #00c897;
+  margin-right: 0.3rem;
 }
 
 /* whyUs section */
@@ -300,10 +306,6 @@ p {
 
 /* LOGIN */
 
-.login-section {
-  height: 7rem;
-}
-
 .login-card {
   color: #481380;
   padding: 3% 2%;
@@ -339,4 +341,15 @@ p {
 .brand-login {
   width: 5.5rem;
   margin: 0.5rem;
+}
+
+.signup-card {
+  color: #481380;
+  padding: 3% 2%;
+}
+
+.signup-section {
+  background-color: white;
+  color: #481380;
+  font-family: "Raleway", sans-serif;
 }

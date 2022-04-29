@@ -62,6 +62,9 @@
 
 		<!-- Custom Stylesheet -->
 		<link rel="stylesheet" href="css/main.css" />
+
+		<!-- Custom JS-->
+		<script type="text/javascript" src="indexx.js"></script>
 	</head>
 
 	<body class="login-body">
@@ -76,15 +79,21 @@
 							height="50"
 						/>campFiRe
 					</a>
-					<div class="col-lg-6 shadow p-3 mb-5 bg-body rounded formm">
-							<div class="form-floating mb-3" style="padding-bottom 2rem; ">
-									<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+					<div class="col-lg-6 shadow p-3 mb-5 bg-body rounded formm needs-validation" novalidate>
+							<div class="form-floating mb-3 " style="padding-bottom 2rem;" >
+									<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
 									<label for="floatingInput">Email address</label>
 									<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+									<div class="valid-feedback">
+										Please enter a valid email.
+									</div>
 								</div>
 								<div class="form-floating">
-									<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+									<input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
 									<label for="floatingPassword">Password</label>
+									<div class="invalid-feedback">
+										Incorrect Password.
+									</div>
 								</div>
 							<button type="submit" class="btn btn-primary login-btn">
 								Sign In
