@@ -315,8 +315,8 @@ p {
   font-family: "Lobster", cursive;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-top: 12rem;
-  padding-bottom: 1.5rem;
+  padding-top: 6rem;
+  padding-bottom: 2.5rem;
   color: #481380;
   text-decoration: none;
 }
@@ -325,7 +325,7 @@ p {
   color: #481380;
 }
 .login-body {
-  background-color: #481380;
+  background-color: white;
 }
 
 #login-section {
@@ -338,9 +338,9 @@ p {
   margin: 1rem;
 }
 
-.brand-login {
-  width: 5.5rem;
-  margin: 0.5rem;
+.login-btn-2:hover{
+  color: black;
+  background-color: white;
 }
 
 .signup-card {

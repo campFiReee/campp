@@ -44,7 +44,7 @@
 					<div class="form-floating mb-3 " style="padding-bottom 2rem;">
 						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
 						<label for="floatingInput">Email address</label>
-						<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						<div id="emailHelp" class="form-text" style="text-align: left; padding-left: 7px;">We'll never share your email with anyone else.</div>
 						<div class="valid-feedback">
 							Please enter a valid email.
 						</div>
@@ -61,15 +61,21 @@
 					</button>
 					<hr>
 					<p>or sign in with:</p>
-					<div class="row justify-content-center">
-						<div class="col-lg-4 col-md-4 col-sm-6 shadow p-3 mb-5 bg-body rounded brand-login">
-							<i class="fa-brands fa-google"></i>
+					<div class="hstack gap-3 justify-content-center" style="padding-bottom: 3rem;">
+						<div class="brand-login">
+							<button type="submit" class="btn btn-danger login-btn">
+								<i class="fa-brands fa-google float-left"></i> Google
+							</button>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 shadow p-3 mb-5 bg-body rounded brand-login">
-							<i class="fa-brands fa-facebook-f"></i>
+						<div class="brand-login-2">
+							<button type="submit" class="btn btn-dark login-btn-2">
+								<i class="fa-brands fa-apple float-left"></i> Apple
+							</button>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 shadow p-3 mb-5 bg-body rounded brand-login">
-							<i class="fa-brands fa-apple"></i>
+						<div class="brand-login">
+							<button type="submit" class="btn btn-primary login-btn">
+								<i class="fa-brands fa-facebook-f  float-left"></i> Facebook
+							</button>
 						</div>
 					</div>
 					</form>
