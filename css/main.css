@@ -102,11 +102,6 @@ p {
   color: #481380;
 }
 
-.btn2 {
-}
-
-.btn2:hover {
-}
 
 /* features section */
 
@@ -338,16 +333,7 @@ p {
   margin: 1rem;
 }
 
-.login-btn-main{
-  color: white;
-  background-color: $indigo-700;
 
-}
-
-.login-btn-main:hover{
-  color: $indigo-700;
-  background-color: white;
-}
 
 .login-btn-2:hover{
   color: black;
