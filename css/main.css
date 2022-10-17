@@ -333,6 +333,11 @@ p {
   margin: 1rem;
 }
 
+.login-btn-main{
+  margin: 1rem;
+  color: white;
+  background-color: #481380;
+}
 
 
 .login-btn-2:hover{
