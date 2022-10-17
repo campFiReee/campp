@@ -338,6 +338,17 @@ p {
   margin: 1rem;
 }
 
+.login-btn-main{
+  color: white;
+  background-color: $indigo-700;
+
+}
+
+.login-btn-main:hover{
+  color: $indigo-700;
+  background-color: white;
+}
+
 .login-btn-2:hover{
   color: black;
   background-color: white;
