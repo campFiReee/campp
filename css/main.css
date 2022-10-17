@@ -310,7 +310,7 @@ p {
   font-family: "Lobster", cursive;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-top: 3rem;
+  padding-top: 2.4rem;
   padding-bottom: 2.5rem;
   color: #481380;
   text-decoration: none;
@@ -342,6 +342,7 @@ p {
 .login-btn-main:hover{
   color: #481380;
   background-color: white ;
+  border-color: #481380;
 }
 
 .login-btn-2:hover{
