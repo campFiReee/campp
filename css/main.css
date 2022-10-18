@@ -339,7 +339,7 @@ p {
   background-color: #481380;
 }
 
-.login-btn-main, signup-btn:hover{
+.login-btn-main:hover, signup-btn:hover{
   color: #481380;
   background-color: white ;
   border-color: #481380;
