@@ -306,7 +306,7 @@ p {
   padding: 1% 1%;
 }
 
-.login-head {
+.login-head{
   font-family: "Lobster", cursive;
   font-size: 2.5rem;
   font-weight: bold;
@@ -339,7 +339,7 @@ p {
   background-color: #481380;
 }
 
-.login-btn-main, signup-btn:hover{
+.login-btn-main:hover, signup-btn:hover{
   color: #481380;
   background-color: white ;
   border-color: #481380;
@@ -368,9 +368,38 @@ p {
 .basic-head {
   color: #481380;
   font-family: 'Lobster', cursive;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  padding: 2rem;
 }
 
 .custom-tooltip {
-  --bs-tooltip-bg: var(--bs-info);
+  --bs-tooltip-bg: var(--bs-primary);
+}
+
+.cmpBasic-body{
+  background-color: white;
+  color: #481380;
+  font-family: "Raleway", sans-serif;
+}
+
+form, .s-up-basicdesc{
+  padding-top: 5%;
+}
+
+.s-up-card{
+}
+
+.basic-summary{
+  padding-top: 3rem;
+}
+
+.summary-text-sub{
+  font-weight: 400;
+  font-size: 2.4rem;
+  font-family: "Livvic", sans-serif;
+}
+
+.summary-item{
+  font-size: 1rem;
+  font-family: "Livvic", sans-serif;
 }
