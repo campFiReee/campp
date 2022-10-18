@@ -372,9 +372,6 @@ p {
   padding: 2rem;
 }
 
-.custom-tooltip {
-  --bs-tooltip-bg: var(--bs-primary);
-}
 
 .cmpBasic-body{
   background-color: white;
@@ -386,8 +383,7 @@ form, .s-up-basicdesc{
   padding-top: 5%;
 }
 
-.s-up-card{
-}
+
 
 .basic-summary{
   padding-top: 3rem;
